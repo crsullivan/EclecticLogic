@@ -1,0 +1,18 @@
+.navbar {
+    height: 5vh;
+    /* background-color: red; */
+    width: 80vw;
+    margin: auto;
+    border-bottom: 1px solid black;
+}
+
+.footer {
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 5vh;
+    margin: 0 auto;
+    border-top: .75em solid #494949;
+
+}

@@ -1,0 +1,59 @@
+.mainContainer {
+    width: 60vw;
+    margin: auto;
+    margin-top: 1vh;
+    /* background-color: red; */
+    /* height: 81vh; */
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    /* background-color: blue; */
+    width: 50vw;
+    height: auto;
+    border-bottom: 1px solid black;
+    margin: auto;
+}
+
+.header .p {
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: none;
+}
+
+.body{
+    width: 40vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color:green */
+}
+
+.pair {
+    width: 17vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+
+}
+
+.category {
+    border: 2px solid black;
+    margin: auto;
+    margin-bottom: 4vh;
+    /* background-color: blue; */
+}
+
+.logoplaceholder {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.description {
+    font-size: 1.15em;
+}
