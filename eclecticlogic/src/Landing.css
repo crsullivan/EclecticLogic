@@ -15,6 +15,7 @@
     height: auto;
     border-bottom: 1px solid black;
     margin: auto;
+    padding-bottom: 1vh;
 }
 
 .header .p {
@@ -28,25 +29,25 @@
 }
 
 .body{
-    width: 40vw;
-    margin: auto;
+    margin-top: 5vh;
     display: flex;
     justify-content: space-evenly;
     /* background-color:green */
 }
 
 .pair {
-    width: 17vw;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+
 
 }
 
 .category {
-    border: 2px solid black;
-    margin: auto;
+    border: 10px solid grey;
+    border-radius: 1%;
+    /* margin: auto; */
     margin-bottom: 4vh;
-    /* background-color: blue; */
+    background-color: floralwhite;
+    width: 15vw;
+    height: 25vh;
 }
 
 .logoplaceholder {

@@ -6,7 +6,10 @@ const Nav = () => {
       return (
         <div className="navbar">
             <nav>
-
+              <a className="navTitle">EclecticLogic</a>
+              <a>Contact</a>
+              <a>About</a>
+              <a>Blog</a>
             </nav>
         </div>
       )
