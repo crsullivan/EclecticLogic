@@ -4,7 +4,12 @@ import Footer from "./components/Footer"
 import Nav from "./components/Nav"
 import Landing from "./components/Landing"
 import History from "./utils/History";
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faEnvelope, faKey } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
+import './Landing.css';
+
+library.add(faEnvelope, faKey);
 
 function App() {
   return (

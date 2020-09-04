@@ -1,9 +1,11 @@
 .navbar {
     height: 5vh;
     /* background-color: red; */
-    width: 80vw;
+    width: 90vw;
     margin: auto;
-    border-bottom: 1px solid black;
+    border-bottom: .01px solid #3b3b3b;
+    padding-bottom: .5%;
+
 }
 
 .footer {
@@ -15,4 +17,39 @@
     margin: 0 auto;
     border-top: .75em solid #494949;
 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: red; */
+    width: 100%;
+    margin-top: 1%;
+}
+
+.navTitle {
+    justify-content: left;
+    margin-left:1%;
+    font-size: 1.6em;
+    color: purple;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+    
+}
+
+.navlink {
+    display: flex;
+    justify-content: right;
+    justify-content: space-evenly;
+    width: 40%;
+    color: #96368b;
+    font-family: 'Mukta', serif;
+    font-size: 1.3em;
+    /* background-color: red; */
 }

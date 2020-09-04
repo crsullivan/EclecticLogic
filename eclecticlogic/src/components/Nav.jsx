@@ -6,10 +6,14 @@ const Nav = () => {
       return (
         <div className="navbar">
             <nav>
-              <a className="navTitle">EclecticLogic</a>
-              <a>Contact</a>
-              <a>About</a>
-              <a>Blog</a>
+              <div className="navTitle">
+                <a>EclecticLogic</a>
+              </div>
+              <div className="navlink">
+                <a>Contact</a>
+                <a>About</a>
+                <a>Blog</a>
+              </div>  
             </nav>
         </div>
       )
