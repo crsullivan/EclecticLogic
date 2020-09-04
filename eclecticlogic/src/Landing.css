@@ -59,11 +59,11 @@
 }
 
 .category {
-    border: 3px solid #666666;
+    /* border: 3px solid #666666; */
     border-radius: 2%;
     /* margin: auto; */
     margin-bottom: 2vh;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     display: flex;
     flex-direction: column;
     /* justify-content: space-around; */
