@@ -1,9 +1,9 @@
 .navbar {
     height: 5vh;
-    /* background-color: red; */
-    width: 90vw;
-    margin: auto;
-    border-bottom: .01px solid #3b3b3b;
+    background-color: #404040;
+    width: 100%;
+    /* margin: auto; */
+    border-bottom: .01px solid #04D700;
     padding-bottom: .5%;
 
 }
@@ -27,7 +27,7 @@ nav {
     justify-content: left;
     margin-left:1%;
     font-size: 1.6em;
-    color: purple;
+    color: hsl(276, 97%, 76%);
     font-weight: bold;
     font-family: 'Lora', serif;
     
@@ -38,20 +38,19 @@ nav {
     justify-content: right;
     justify-content: space-evenly;
     width: 40%;
-    color: #96368b;
+    color: #dba4e2;
     font-family: 'Mukta', serif;
     font-size: 1.2em;
     /* background-color: red; */
 }
 
 .footer {
-    background-color: rgb(46, 46, 46);
+    background-color: #404040;
     position: absolute;
-    bottom: 0;
-    width: 100vw;
+    width: 100%;
     height: 5vh;
     margin: 0 auto;
-    border-top: .75em solid #707070;
+    border-top: 1px solid#04D700;
     color: white;
     display: flex; 
     justify-content:space-between;

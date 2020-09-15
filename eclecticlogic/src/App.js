@@ -15,10 +15,10 @@ function App() {
   return (
     <Router history={History}>
       <div className="App">
-      <Nav />
-        <Switch>
-          <Route exact path="/" component={Landing} />
-        </Switch>
+        <Nav />
+          <Switch>
+            <Route exact path="/" component={Landing} />
+          </Switch>
         <Footer />
       </div>
     </Router>

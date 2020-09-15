@@ -1,5 +1,5 @@
 .App {
   width: auto;
-  height: 100vh;
-  background: linear-gradient(180deg, rgba(184, 184, 184, 0.56) 0%, rgba(230, 230, 230, 0) 0%, rgba(255, 255, 255, 0) 84.15%, rgba(163, 245, 186, 0.237755) 90.91%, rgba(104, 238, 142, 0.39) 100%);
+  /* height: 100vh; */
+  background: #C4C4C4;
 }
