@@ -1,6 +1,6 @@
 .navbar {
     height: 5vh;
-    background-color: #404040;
+    background-color: #222222;
     width: 100%;
     /* margin: auto; */
     border-bottom: .01px solid #04D700;
@@ -37,7 +37,7 @@ nav {
     display: flex;
     justify-content: right;
     justify-content: space-evenly;
-    width: 40%;
+    width: 30%;
     color: #dba4e2;
     font-family: 'Mukta', serif;
     font-size: 1.2em;
@@ -68,5 +68,6 @@ nav {
     display: flex;
     justify-content: space-evenly;
     margin-right: 2vw;
+    color: #36ff33;
     /* background: red; */
 }

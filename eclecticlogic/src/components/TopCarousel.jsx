@@ -8,17 +8,17 @@ const TopCarousel = (props) => {
     {
         var items = [
             {
-                name: <img src={require("../images/protfolioGif.gif")} width="800" height="500" alt="Omega2020 theme" />,
+                name: <img src={require("../images/protfolioGif.gif")} width="90%" alt="Portfolio work done by this company." />,
 
             },
             {
-                name: <img src={require("../images/covidGif.gif")} width="800" height="500" alt="Omega2020 theme" />,
+                name: <img src={require("../images/covidGif.gif")} width="90%" alt="Data management and visualization done by this company." />,
 
             }
         ]
     
         return (
-            <Carousel>
+            <Carousel width="150%">
                 {
                     items.map( (item, i) => <Item key={i} item={item} /> )
                 }
@@ -29,13 +29,9 @@ const TopCarousel = (props) => {
     function Item(props)
     {
         return (
-            <Paper>
                 <div classname="carouselImage">{props.item.name}</div>
-                {/* <Button className="CheckButton">
-                    Check it out!
-                </Button> */}
-            </Paper>
         )
+
     }
 
 }

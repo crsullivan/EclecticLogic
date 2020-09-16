@@ -1,25 +1,59 @@
 .mainContainer {
-    height: 250vh;
+    /* height: 100vh; */
 }
 
 .carouselSection {
-    height: 20%;
-    background: #222222;
-}
-
-.carouselContainer {
-    width: auto;
-    /* height: auto; */
+    height: 55vh;
+    background: #88858b;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #04D700;
     /* margin: auto; */
-}
-
-.carouselImage {
-    width:150%;
+    /* width: 100vw; */
 }
 
 .CarouselItem {
+    /* margin:auto; */
+    margin-top: 2vh;
+
+    
+} 
+
+.Carousel-root-1 {
     width: 50%;
-    max-height: 40vh;
-    margin:auto;
     /* background: red; */
+    border-top: 1px solid #04D700;
+    text-align: center;
+
+}
+
+.icons {    /* background: red; */
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    font-family: 'Lora', serif;
+    padding-bottom: 2vh;
+}
+
+.iconDiv {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2vh;
+    
+}
+
+.iconDiv h3 {
+    font-family: 'Mukta', serif;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    
+}
+.iconDiv i {
+    color: #af47df;
 }
