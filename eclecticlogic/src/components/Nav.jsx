@@ -12,7 +12,7 @@ const Nav = () => {
               <div className="navlink">
                 <a href="http://localhost:3000/contact">Contact</a>
                 <a href="http://localhost:3000/about">About</a>
-                <a href="http://localhost:3000/about">Blog</a>
+                <a href="http://localhost:3000/blog">Blog</a>
               </div>  
             </nav>
         </div>

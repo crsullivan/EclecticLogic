@@ -5,7 +5,12 @@ const Footer = () => {
 
       return (
         <div className="footer">
-          <p className="copyright">Copyright 2020 EclecticLogic</p>
+          <p className="copyright">
+          Copyright 2020 
+            <p className="Name">
+             EclecticLogic
+            </p>
+          </p>
           <img src={require("../images/E_lecticLogi_ Logo (3).png")}></img>
           <div className="links">
             <a class="fab fa-instagram fa-2x" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/eclecticlogic/?hl=en"></a>

@@ -71,67 +71,93 @@
   @keyframes fadeOut {
     0% {
       opacity:1;
+      visibility: visible;
+      display: flex;
     }
     50% {
         opacity:1;
     }
     100% {
       opacity:0;
+      visibility: hidden;
+      display: none;
     }
   }
   
   @-moz-keyframes fadeOut {
     0% {
       opacity:1;
+      visibility: visible;
     }
     50% {
         opacity:1;
     }
     100% {
       opacity:0;
+      visibility: hidden;
+      display: none;
+
     }
   }
   
   @-webkit-keyframes fadeOut {
     0% {
       opacity:1;
+      visibility: visible;
     }
     50% {
         opacity:1;
     }
     100% {
       opacity:0;
+      visibility: hidden;
+      display: none;
+
     }
   }
   
   @-o-keyframes fadeOut {
     0% {
       opacity:1;
+      visibility: visible;
     }
     50% {
         opacity:1;
     }
     100% {
       opacity:0;
+      visibility: hidden;
+      display: none;
+
     }
   }
   
   @-ms-keyframes fadeOut {
     0% {
       opacity:1;
+      visibility: visible;
     }
     50% {
         opacity:1;
     }
     100% {
       opacity:0;
+      visibility: hidden;
+      display: none;
+
     }
+  }
+
+  @keyframes move {
+    from { z-index: -1; }
+    to { z-index: 1; }
   }
 
 .splashLogo {
     width: 50%;
     height: 60%;
     margin: auto;
+    animation: move 1s linear; 
 }
 
 .splashDiv {
@@ -140,20 +166,13 @@
     height: 100vh;
     display: flex;
     position: absolute;
-    z-index: -1;
     align-content: center;
-    /* background: rgb(53, 53, 53); */
-    /* width: 100%; */
     left: 0px;
     top: 0px;
-    -webkit-animation: fadeDelay ease 2s;
-    -moz-animation: fadeDelay ease 2s;
-    -o-animation: fadeDelay ease 2s;
-    -ms-animation: fadeDelay ease 2s;
-    -webkit-animation: fadeOut ease 2s;
-    -moz-animation: fadeOut ease 2s;
-    -o-animation: fadeOut ease 2s;
-    -ms-animation: fadeOut ease 2s;
+    -webkit-animation: fadeOut ease 1s;
+    -moz-animation: fadeOut ease 1s;
+    -o-animation: fadeOut ease 1s;
+    -ms-animation: fadeOut ease 1s;
     opacity: 0;
 }
 
@@ -202,9 +221,10 @@
 
 .callTo {
     display: flex;
+    text-align: center;
     width: 80%;
     margin: auto;
-    justify-content:space-around;
+    justify-content:space-between;
     margin-top: 4vh;
     font-family: 'Mukta', serif;
     color: rgb(119, 36, 139);
@@ -224,7 +244,7 @@
     font-family: 'Mukta', serif;
     margin-bottom: 10vh;
     padding-top: 2vh;
-    background: ghostwhite;
+    /* background: ghostwhite; */
     border-radius: 5px;
 }
 
