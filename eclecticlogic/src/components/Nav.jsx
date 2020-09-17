@@ -7,12 +7,12 @@ const Nav = () => {
         <div className="navbar">
             <nav>
               <div className="navTitle">
-                <a>EclecticLogic</a>
+                <a href="http://localhost:3000/">EclecticLogic</a>
               </div>
               <div className="navlink">
-                <a>Contact</a>
-                <a>About</a>
-                <a>Blog</a>
+                <a href="http://localhost:3000/contact">Contact</a>
+                <a href="http://localhost:3000/about">About</a>
+                <a href="http://localhost:3000/about">Blog</a>
               </div>  
             </nav>
         </div>

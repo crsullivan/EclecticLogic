@@ -1,11 +1,11 @@
 .navbar {
-    height: 5vh;
+    height: 7vh;
     background-color: #222222;
     width: 100%;
     /* margin: auto; */
     border-bottom: .01px solid #04D700;
-    padding-bottom: .5%;
-
+    /* padding-bottom: .5%; */
+    text-decoration: none;
 }
 
 
@@ -21,6 +21,8 @@ nav {
     /* background-color: red; */
     width: 100%;
     margin-top: 1%;
+    text-decoration: none;
+
 }
 
 .navTitle {
@@ -31,6 +33,15 @@ nav {
     font-weight: bold;
     font-family: 'Lora', serif;
     
+}
+
+.navTitle a {
+    text-decoration: none;
+
+}
+
+.navTitle a:visited {
+    color:hsl(276, 97%, 76%);;
 }
 
 .navlink {
@@ -44,11 +55,19 @@ nav {
     /* background-color: red; */
 }
 
+.navlink a {
+    text-decoration: none;
+}
+
+.navlink a:visited {
+    color:#dba4e2;
+}
+
 .footer {
     background-color: #404040;
     position: absolute;
     width: 100%;
-    height: 5vh;
+    height: 10vh;
     margin: 0 auto;
     border-top: 1px solid#04D700;
     color: white;
@@ -58,16 +77,26 @@ nav {
 
 }
 
+.footer img {
+    width: 14%;
+}
+
 .copyright {
     margin-left: 2vw;
 
 }
 
-.footer .links {
+.links {
+    display: flex;
+    width: 10%;
+}
+
+.footer .links a {
     width: 10vw;
     display: flex;
     justify-content: space-evenly;
     margin-right: 2vw;
     color: #36ff33;
+    text-decoration: none;
     /* background: red; */
 }
