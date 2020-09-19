@@ -1,6 +1,8 @@
 .Contact {
-    height: 75.8vh;
+    height: 80.8vh;
     width: auto;
+    background: #88858b;
+    display: flex;
 }
 
 .contactForm {

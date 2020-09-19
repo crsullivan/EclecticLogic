@@ -18,6 +18,9 @@ const myTheme = createMuiTheme({
       main: '#af47df',
       dark: '#8227ac'
     },
+    tertiary: {
+      main: '#f4f7f4'
+    }
   },
 });
 
@@ -101,7 +104,7 @@ const Contact = () => {
 
       return (
         <div className="Contact">
-            <Paper className="contactForm" elevation={3}>
+            <Paper className="contactForm" elevation={24}>
               <div className="topForm">
                 <TextField 
                   className={classes.field} 
