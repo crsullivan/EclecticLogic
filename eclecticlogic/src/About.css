@@ -1,4 +1,70 @@
 .About {
-    height: 78.7vh;
+    height: 80.8vh;
     width: 100%;
+    background: #88858b;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: rgb(29, 29, 29);
+    align-items: center;
+
+}
+
+.topAbout {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.call {
+    /* text-align: center; */
+    height: 90%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3%;
+    color: rgb(85, 0, 85);
+    width: 50%;
+    text-align: center;
+}
+
+.greenText {
+    margin: 0;
+    font-family: 'Lora', serif;
+    color: #32ff2e;
+}
+
+.visionTitle {
+    font-size: 2.8em;
+    color: black;
+    margin-left: 10%;
+    margin-top: 2%;
+    font-family: 'Lora', serif;
+}
+
+.ceo {
+    display: flex;
+}
+
+.ceoTitle {
+    font-size: 2.8em;
+    color: black;
+    margin-left: 10%;
+    margin-top: 2%;
+    font-family: 'Lora', serif;
+}
+
+.ceoDescription {
+    height: 90%;
+    margin-left: 4%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3%;
+    width: 50%;
+    font-size: 1.75em;
+
 }
