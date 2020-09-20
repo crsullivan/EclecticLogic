@@ -85,13 +85,15 @@ nav {
 }
 
 .footer img {
-    width: 14em;
+    width: 10%;
 }
 
 .copyright {
     display: flex;
     margin-left: 2vw;
     align-items: center;
+    width: 12%;
+
 
 }
 
@@ -102,15 +104,14 @@ nav {
 
 .links {
     display: flex;
-    width: 10%;
+    width: 12%;
+    justify-content: space-evenly;
+
 }
 
 .footer .links a {
-    width: 10vw;
     display: flex;
-    justify-content: space-evenly;
-    margin-right: 2vw;
+    justify-content: space-around;
     color: #36ff33;
     text-decoration: none;
-    /* background: red; */
 }
