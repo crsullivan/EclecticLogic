@@ -1,5 +1,69 @@
+@media only screen and (max-width: 600px) {
+
+    .About {
+        min-height: 300vh;
+        width: 100%;
+        background: #88858b;
+        display: flex;
+        flex-direction: column;
+    }
+    .topAbout {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .visionTitle {
+        font-size: 2.8em;
+        color: black;
+        margin-left: 10%;
+        margin-top: 2%;
+        font-family: 'Lora', serif;
+    }
+
+    .call {
+        /* text-align: center; */
+        height: 90%;
+        margin-left: 5%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 3%;
+        color: rgb(85, 0, 85);
+        min-width: 90%;
+        text-align: center;
+    }
+    
+
+    .ceo {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+
+    }
+
+    .ceoTitle {
+        font-size: 2em;
+        color: black;
+        margin-right: 5%;
+        margin-top: 2%;
+        font-family: 'Lora', serif;
+    }
+    
+    .ceoDescription {
+        height: 90%;
+        margin-left: 4%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 3%;
+        min-width: 90%;
+        font-size: 1.75em;
+        text-align: center;
+    }
+}
+
 .About {
-    height: 80.8vh;
+    height: auto;
     width: 100%;
     background: #88858b;
     display: flex;
@@ -47,6 +111,8 @@ h1 {
 
 .ceo {
     display: flex;
+    margin-bottom: 8%;
+
 }
 
 .ceoTitle {

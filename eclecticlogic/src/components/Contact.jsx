@@ -130,7 +130,7 @@ const Contact = () => {
                   id="outlined-multiline-static"
                   label="Email Body*"
                   multiline
-                  rows={20}
+                  rows={15}
                   variant="outlined"
                   onChange={changeHandler}
                 /> 
