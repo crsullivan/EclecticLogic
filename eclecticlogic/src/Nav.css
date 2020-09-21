@@ -1,7 +1,14 @@
 @media only screen and (max-width: 600px) {
     .navlink {
         min-width: 50%;
+        color: #dba4e2;
+
     }
+
+    .navlink a:visited {
+        color:#dba4e2;
+    }
+    
     nav {
         width: auto;
     }
