@@ -97,6 +97,8 @@ nav {
     text-decoration: none;
     margin-bottom: 0;
     padding-bottom: 0;
+    color: hsl(276, 97%, 76%);
+
 }
 
 .navTitle a:visited {
@@ -123,6 +125,8 @@ nav {
     text-decoration: none;
     margin-bottom: 0;
     padding-bottom: 0;
+    color: #dba4e2;
+
 }
 
 .navlink a:visited {
