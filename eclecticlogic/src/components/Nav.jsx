@@ -7,12 +7,12 @@ const Nav = () => {
         <div className="navbar">
             <nav>
               <div className="navTitle">
-                <a href="http://localhost:3000/">EclecticLogic</a>
+                <a href="https://eclectic-logic.vercel.app/">EclecticLogic</a>
               </div>
               <div className="navlink">
-                <a href="http://localhost:3000/contact">Contact</a>
-                <a href="http://localhost:3000/about">About</a>
-                <a href="http://localhost:3000/blog">Blog</a>
+                <a href="https://eclectic-logic.vercel.app/contact">Contact</a>
+                <a href="https://eclectic-logic.vercel.app/about">About</a>
+                <a href="https://eclectic-logic.vercel.app/blog">Blog</a>
               </div>  
             </nav>
         </div>
