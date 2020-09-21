@@ -6,6 +6,30 @@
         width: auto;
     }
 
+    .navTitle {
+        justify-content: left;
+        margin-left:1%;
+        font-size: 1.6em;
+        color: hsl(276, 97%, 76%);
+        font-weight: bold;
+        font-family: 'Lora', serif;
+        z-index: 5;
+        margin-bottom: 0;
+        padding-bottom: 0;
+            /* background-color: red; */
+    
+    }
+    
+    .navTitle a {
+        text-decoration: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    
+    .navTitle a:visited {
+        color:hsl(276, 97%, 76%);
+    }
+    
     .navbar {
         width: 1000%;
         display: none;
