@@ -1,6 +1,12 @@
+@media only screen and (max-width: 600px) {
+  .App {
+    min-height: auto;
+    max-width: auto;
+  }
+}
+
 .App {
   width: auto;
-  /* height: 100vh; */
   background: #f4f7f4;
   /* height: auto; */
 }

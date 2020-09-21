@@ -7,7 +7,7 @@ const Landing = () => {
   
 
   return (
-    <>
+    <div className="landing">
       <div className="splashDiv">
         <img className="splashLogo" src={require("../images/L_Thick-removebg-preview.png")}></img>
       </div>  
@@ -51,7 +51,7 @@ const Landing = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

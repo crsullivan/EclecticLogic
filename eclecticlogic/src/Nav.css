@@ -1,5 +1,74 @@
+@media only screen and (max-width: 600px) {
+    .navlink {
+        min-width: 50%;
+    }
+    nav {
+        width: auto;
+    }
+
+    .navbar {
+        width: 1000%;
+        display: none;
+        /* opacity: 0; */
+    }
+
+    .links {
+        /* display: flex; */
+        min-width: 50%;
+        margin-bottom: 2%;
+
+        /* justify-content: space-evenly; */
+    }
+
+    .footer {
+        background-color: #404040;
+        position: absolute;
+        max-width: auto;
+        min-height: 40%;
+        margin: 0 auto;
+        border-top: 1px solid#04D700;
+        color: white;
+        display: flex; 
+        flex-direction: column;
+        /* justify-content:space-between; */
+        text-align: center;
+        justify-content: space-around;
+    
+    }
+
+    .footer img {
+        min-width: 50%;
+        margin-top:-5%;
+
+    }
+    
+    .copyright {
+        display: flex;
+        align-items: center;
+        min-width: 50%;
+        /* margin: auto; */
+        align-content: center;
+
+    
+    }
+    
+    .Name {
+        margin-left: .5%;
+        color: #04fd00;
+
+    }
+
+    .footer .links a {
+        display: flex;
+        justify-content: space-around;
+        color: #36ff33;
+        text-decoration: none;
+    }
+}
+
+
 .navbar {
-    height: 7vh;
+    height: 7%;
     background-color: #222222;
     width: 100%;
     /* margin: auto; */
@@ -33,7 +102,8 @@ nav {
     z-index: 5;
     margin-bottom: 0;
     padding-bottom: 0;
-    
+        /* background-color: red; */
+
 }
 
 .navTitle a {
@@ -57,6 +127,8 @@ nav {
     z-index: 5;
     margin-bottom: 0;
     padding-bottom: 0;
+    /* background-color: red; */
+
 
 }
 
@@ -74,7 +146,7 @@ nav {
     background-color: #404040;
     position: absolute;
     width: 100%;
-    height: 12vh;
+    height: 12%;
     margin: 0 auto;
     border-top: 1px solid#04D700;
     color: white;
@@ -90,7 +162,7 @@ nav {
 
 .copyright {
     display: flex;
-    margin-left: 2vw;
+    margin-left: 2%;
     align-items: center;
     width: 12%;
 
@@ -98,7 +170,7 @@ nav {
 }
 
 .Name {
-    margin-left: .5vw;
+    margin-left: .5%;
     color: #04fd00;
 }
 
@@ -106,6 +178,7 @@ nav {
     display: flex;
     width: 12%;
     justify-content: space-evenly;
+    margin-right: 2%;
 
 }
 
