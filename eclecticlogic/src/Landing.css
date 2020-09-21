@@ -195,7 +195,7 @@
 }
 
 .carouselSection {
-    height: 55vh;
+    height: 40vh;
     background: #88858b;
     display: flex;
     justify-content: center;
@@ -207,15 +207,23 @@
 .CarouselItem {
     /* margin:auto; */
     margin-top: 2vh;
+    /* background: red; */
+    width: 100%;
+    /* background: red; */
+    /* border-top: 1px solid #04D700; */
+    text-align: center;
 
-    
 } 
 
+.carouselImage {
+  width: 50%;
+  /* background: red; */
+  border-top: 1px solid #04D700;
+  text-align: center;
+}
+
 .Carousel-root-1 {
-    width: 50%;
-    /* background: red; */
-    border-top: 1px solid #04D700;
-    text-align: center;
+
 
 }
 
