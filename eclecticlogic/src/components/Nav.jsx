@@ -12,7 +12,7 @@ const Nav = () => {
               <div className="navlink">
                 <a href="https://eclectic-logic.vercel.app/contact">Contact</a>
                 <a href="https://eclectic-logic.vercel.app/about">About</a>
-                <a href="https://eclectic-logic.vercel.app/blog">Blog</a>
+                <a href="https://eclectic-blog.vercel.app/">Blog</a>
               </div>  
             </nav>
         </div>
