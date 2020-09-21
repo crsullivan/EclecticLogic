@@ -1,88 +1,275 @@
-.mainContainer {
-    width: 65vw;
-    margin: auto;
-    margin-top: 1vh;
-    font-family: 'Noto Serif', serif;
+@-webkit-keyframes fadeIn { 
+    from { 
+        opacity:0; 
+    } to { 
+        opacity:1; 
+    } 
 }
 
-.header {
-    display: flex;
-    /* flex-direction: column; */
-    /* background-color: green; */
-    /* height: auto; */
-    border-bottom: 2px solid #3b3b3b;
-    /* margin: auto; */
-    padding-bottom: 1vh;
-    font-size: 1.25em;
-    /* justify-content: space-between; */
-    align-items: center;
+@-moz-keyframes fadeIn { 
+    from { 
+        opacity:0; 
+    } to { 
+        opacity:1; 
+    } 
 }
 
-.slogan {
-    display: flex;
-    /* flex-direction: column; */
-    /* background: blue; */
-    height: auto;
-    align-items: center;
-    width: 100%; 
-    justify-content: space-around;
-    margin-left: 10%;
-
+@keyframes fadeIn { 
+    from { 
+        opacity:0; 
+    } 
+    to { 
+        opacity:1; 
+    } 
 }
 
-.slogan h1 {
-    margin-bottom: 1%;}
-
-.logo {
-    height: auto;
-    /* margin: auto; */
-    margin-top: none;
-    /* background: red; */
-}
-
-.services {
-    display: flex;
-    /* background: red; */
-    width: 100%;
-    /* margin: auto; */
-    justify-content: space-evenly;
-    /* max-height: 20vh; */
-
-
-}
-
-.body{
-    margin-top: 3vh;
-    display: flex;
-    justify-content: space-evenly;
-    /* background-color:green */
-}
-
-.category {
-    /* border: 3px solid #666666; */
-    border-radius: 2%;
-    /* margin: auto; */
-    margin-bottom: 2vh;
-    /* background-color: #ffffff; */
-    display: flex;
-    flex-direction: column;
-    /* justify-content: space-around; */
-    width: 16vw;
-    height: 30vh;
-    text-align: center;
-    align-items: center;
-
-}
-
-.category i {
-    color: #4c1353;
-    margin-top: 2vh;    /* margin-bottom: 1vh; */
-    -ms-transition: .7s ease-in-out;
-    -webkit-transition: .7s ease-in-out;
-    /* background: red; */
+@keyframes fadeDelay {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeDelay {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeDelay {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeDelay {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeDelay {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:1;
+    }
   }
 
-.description {
-    font-size: 1.15em;
-    margin: 5%;
+  @keyframes fadeOut {
+    0% {
+      opacity:1;
+      visibility: visible;
+      display: flex;
+    }
+    50% {
+        opacity:1;
+    }
+    100% {
+      opacity:0;
+      visibility: hidden;
+      display: none;
+    }
+  }
+  
+  @-moz-keyframes fadeOut {
+    0% {
+      opacity:1;
+      visibility: visible;
+    }
+    50% {
+        opacity:1;
+    }
+    100% {
+      opacity:0;
+      visibility: hidden;
+      display: none;
+
+    }
+  }
+  
+  @-webkit-keyframes fadeOut {
+    0% {
+      opacity:1;
+      visibility: visible;
+    }
+    50% {
+        opacity:1;
+    }
+    100% {
+      opacity:0;
+      visibility: hidden;
+      display: none;
+
+    }
+  }
+  
+  @-o-keyframes fadeOut {
+    0% {
+      opacity:1;
+      visibility: visible;
+    }
+    50% {
+        opacity:1;
+    }
+    100% {
+      opacity:0;
+      visibility: hidden;
+      display: none;
+
+    }
+  }
+  
+  @-ms-keyframes fadeOut {
+    0% {
+      opacity:1;
+      visibility: visible;
+    }
+    50% {
+        opacity:1;
+    }
+    100% {
+      opacity:0;
+      visibility: hidden;
+      display: none;
+
+    }
+  }
+
+  @keyframes move {
+    from { z-index: -1; }
+    to { z-index: 1; }
+  }
+
+.splashLogo {
+    width: 50%;
+    height: 60%;
+    margin: auto;
+    animation: move 1s linear; 
+}
+
+.splashDiv {
+    /* opacity: 1; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    align-content: center;
+    left: 0px;
+    top: 0px;
+    -webkit-animation: fadeOut ease 1s;
+    -moz-animation: fadeOut ease 1s;
+    -o-animation: fadeOut ease 1s;
+    -ms-animation: fadeOut ease 1s;
+    opacity: 0;
+}
+
+
+.mainContainer {
+    /* height: 100vh; */
+    opacity:0;
+    opacity: 1 \9; /*just in case ie*/
+    -webkit-animation:fadeIn ease-in 1;
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+}
+
+.carouselSection {
+    height: 55vh;
+    background: #88858b;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #04D700;
+    /* margin: auto; */
+    /* width: 100vw; */
+}
+
+.CarouselItem {
+    /* margin:auto; */
+    margin-top: 2vh;
+
+    
+} 
+
+.Carousel-root-1 {
+    width: 50%;
+    /* background: red; */
+    border-top: 1px solid #04D700;
+    text-align: center;
+
+}
+
+/* .callTo {
+    display: flex;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    justify-content:space-between;
+    margin-top: 4vh;
+    font-family: 'Mukta', serif;
+    color: rgb(119, 36, 139);
+} */
+
+/* .callTo h2 {
+    border-bottom: 4px solid #04D700;    
+} */
+
+.icons {    /* background: red; */
+    width: 90%;
+    margin: auto;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    font-family: 'Mukta', serif;
+    margin-bottom: 5vh;
+    /* padding-top: 2vh; */
+    border-radius: 5px;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.iconDiv {
+    /* margin: auto; */
+    /* text-align: center; */
+    display: flex;
+    /* justify-content: space-around; */
+    /* margin-bottom: 2vh; */
+    flex-direction: column;
+    width: 20%;
+    border: 1px solid lightgrey;
+    height: 50vh;
+    background: ghostwhite;
+}
+
+.iconDiv p {
+  font-family: 'Montserrat', sans-serif;
+    display: flex;
+    padding: 5%;
+    color: rgb(32, 32, 32);
+    font-size: 1.2em;
+}
+.iconDiv i {
+    color: #af47df;
+    margin-top: 5vh;
 }
