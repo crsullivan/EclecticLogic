@@ -91,7 +91,7 @@ const Contact = () => {
       alert("Name, Email, and Body are required.")
     }
     axios
-      .post("http://localhost:7777/send", info)
+      .post("https://eclectic-be.herokuapp.com/send", info)
       .then(result => {
       console.log(result)
   })
