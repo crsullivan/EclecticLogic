@@ -110,7 +110,7 @@ const Contact = () => {
                   className={classes.field} 
                   name="name"
                   id="outlined-basic" 
-                  label="Your Name*" 
+                  label="Name*" 
                   variant="outlined" 
                   onChange={changeHandler}
                 />
@@ -118,7 +118,7 @@ const Contact = () => {
                   className={classes.field} 
                   name="address"
                   id="outlined-basic" 
-                  label="Your Email Address*" 
+                  label="Email*" 
                   variant="outlined" 
                   onChange={changeHandler}
                 />
@@ -128,7 +128,7 @@ const Contact = () => {
                   className={classes.emailField}
                   name="email"
                   id="outlined-multiline-static"
-                  label="Email Body*"
+                  label="Message*"
                   multiline
                   rows={15}
                   variant="outlined"
